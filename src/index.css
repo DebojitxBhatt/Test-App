@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color-scheme: light dark;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+/* Scrollbar styles */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/* Table styles */
+.MuiTableContainer-root {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+/* Transitions */
+.MuiPaper-root,
+.MuiButton-root,
+.MuiChip-root {
+  transition: all 0.2s ease-in-out !important;
+}
+
+/* Code editor-like styles */
+.MuiTextField-root.code-editor .MuiOutlinedInput-root {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 14px;
+  line-height: 1.5;
+  padding: 12px;
+}
+
+/* Form styles */
+.MuiTextField-root {
+  background-color: white;
+}
+
+/* SQL Query Tool */
+.sql-examples {
+  margin-top: 16px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  font-family: monospace;
+} 
