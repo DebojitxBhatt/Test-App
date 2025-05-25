@@ -8,12 +8,7 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['@electric-sql/pglite', 'sql.js']
   },
-  server: {
-    headers: {
-      'Cross-Origin-Opener-Policy': 'same-origin',
-      'Cross-Origin-Embedder-Policy': 'require-corp',
-    }
-  },
+  
   build: {
     target: 'esnext',
     outDir: 'dist'
